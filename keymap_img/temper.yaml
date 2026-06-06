@@ -31,7 +31,7 @@ layers:
     - {t: '''', s: '"'}
     - {t: ;, s: ':'}
     - {t: ., s: '>'}
-  - [symbol, navigation, SPACE, SPACE, '&mo 1 BSPC', '&mo 4 DEL']
+  - [symbol, navigation, SPACE, SPACE, '&mo 1 BSPC', '&mo FUN DEL']
   number:
   - - {t: /, s: '?'}
     - '7'
