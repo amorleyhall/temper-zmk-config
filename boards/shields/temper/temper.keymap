@@ -19,13 +19,34 @@
 # define ______ &trans
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <NUM NAV>;
-            then-layer = <FUN>;
+    
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
+        combo_backspace {
+            timeout-ms = <50>;
+            key-positions = <6 7>;
+            bindings = <&kp BSPC>;
+        };
+        combo_delete {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            bindings = <&kp BSPC>;
         };
     };
+
+//     conditional_layers {
+//         compatible = "zmk,conditional-layers";
+//         tri_layer {
+//             if-layers = <NUM NAV>;
+//             then-layer = <FUN>;
+//         };
+//     };
+    
     behaviors {
         bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
@@ -64,12 +85,7 @@
             bindings = <&kp FSLH>, <&kp BSLH>;
             mods = <(MOD_LSFT)>;
         };
-        amps_morph: amps_morph {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp AMPS>, <&kp PIPE>;
-            mods = <(MOD_LSFT)>;
-        };
+        
     };
         keymap {
                 compatible = "zmk,keymap";
@@ -83,7 +99,7 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp X         &kp Q         &kp M         &kp W         &kp Z             &kp K         &kp P        &kp APOS       &kp SEMI    &kp DOT
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                   &mo CMD       &mo NAV     &kp SPACE        &kp SPACE      &mo NUM     &mo FUN
+                                   &mo CMD       &mo NAV     &kp SPACE        &kp SPACE     &lt NUM BSPC   &lt FUN DEL
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
                 };
@@ -107,7 +123,7 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
       &kp CARET      &kp HASH      &kp LPAR      &kp RPAR      &kp DLLR         &kp UNDER       &kp N4        &kp N5        &kp N6      &kp PLUS
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &amps_morph     &kp LT       &kp LBKT      &kp RBKT       &kp GT          &slh_morph      &kp N1        &kp N2        &kp N3      &kp EQUAL
+      &kp AMPS     &kp LT       &kp LBKT      &kp RBKT       &kp GT          &slh_morph      &kp N1        &kp N2        &kp N3      &kp EQUAL
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                     ______        ______        ______            &kp N0        ______        ______
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
