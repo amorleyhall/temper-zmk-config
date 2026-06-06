@@ -1,137 +1,150 @@
 layout: {zmk_keyboard: temper}
 layers:
   default:
-  - - Q
-    - W
-    - F
-    - P
-    - B
-    - J
+  - - B
     - L
-    - U
-    - Y
-    - {t: '''', s: '"'}
-  - [A, R, S, T, G, M, N, E, I, O]
-  - - Z
-    - X
+    - D
     - C
-    - D
     - V
-    - K
-    - H
-    - {t: ',', s: ;}
-    - {t: ., s: ':'}
-    - {t: '?', s: '!'}
-  - - cmd
-    - num
-    - {t: ⇧, s: ⇪}
-    - SPACE
-    - nav
-    - {t: default, h: toggle}
-  game:
-  - - ↹
-    - Q
-    - W
-    - E
-    - R
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ⇧
-    - A
-    - S
-    - D
+    - J
     - F
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ⌃
+    - O
+    - U
+    - {t: ',', s: <}
+  - - N
+    - R
+    - T
+    - {t: S, h: LSHIFT}
+    - G
+    - Y
+    - {t: H, h: RSHIFT}
+    - A
+    - E
+    - I
+  - - X
+    - Q
+    - M
+    - W
     - Z
-    - X
-    - C
-    - V
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ESC
-    - {t: ▽, type: trans}
-    - SPACE
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  num:
-  - - '~'
-    - '@'
-    - '{'
-    - '}'
-    - '%'
-    - '*'
+    - K
+    - P
+    - {t: '''', s: '"'}
+    - {t: ;, s: ':'}
+    - {t: ., s: '>'}
+  - [symbol, navigation, SPACE, SPACE, number, fun]
+  number:
+  - - {t: /, s: '?'}
     - '7'
     - '8'
     - '9'
     - {t: '-', s: _}
-  - [^, '#', (, ), $, _, '4', '5', '6', +]
-  - - {t: '&', s: '|'}
-    - <
-    - {t: '[', s: '{'}
-    - {t: ']', s: '}'}
-    - '>'
-    - {t: /, s: \}
+    - {t: ▽, type: trans}
+    - BSPC
+    - {t: ▽, type: trans}
+    - DEL
+    - {t: ▽, type: trans}
+  - - '*'
+    - '4'
+    - '5'
+    - '6'
+    - +
+    - {t: ▽, type: trans}
+    - RSHIFT
+    - ⌃
+    - ⌘
+    - ⎇
+  - - {t: ., s: '>'}
     - '1'
     - '2'
     - '3'
     - {t: '=', s: +}
-  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - RET
+    - ↹
+  - - ESC
+    - '0'
+    - SPACE
+    - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
-    - '0'
+  symbol:
+  - - '~'
+    - <
+    - {t: '[', s: '{'}
+    - (
+    - '{'
+    - '}'
+    - )
+    - {t: ']', s: '}'}
+    - '>'
+    - '"'
+  - - '!'
+    - '@'
+    - '#'
+    - $
+    - '%'
+    - ^
+    - '&'
+    - '*'
+    - {t: '-', s: _}
+    - ''''
+  - - {t: '`', s: '~'}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  nav:
+    - /
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - \
+    - {t: ▽, type: trans}
+    - _
+    - '|'
+  - - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  navigation:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - DEL
+    - SCROLL UP
+    - PAGE UP
     - HOME
-    - END
-    - ↹
-    - BSPC
-  - - {t: ⇧, h: sticky}
-    - {t: ⌃, h: sticky}
-    - {t: ⎇, h: sticky}
+    - {t: ▽, type: trans}
+  - - {t: ⎇, h: sticky}
     - {t: ⌘, h: sticky}
+    - {t: ⌃, h: sticky}
+    - {t: LSHIFT, h: sticky}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - ←
-    - ↓
     - ↑
-    - →
-    - {t: ESC, s: '`'}
+    - ↓
+    - '&RIGHT'
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - RET
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - SCROLL DOWN
+    - PAGE DOWN
+    - END
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   fun:
-  - - {t: game, h: toggle}
+  - - {t: ▽, type: trans}
     - MUTE
     - VOL DN
     - VOL UP
@@ -162,11 +175,11 @@ layers:
     - F3
     - F10
   - - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - {t: ▽, type: trans}
   cmd:
   - - ⌘Q
     - ⌘W
@@ -198,9 +211,12 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {type: held}
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ESC
