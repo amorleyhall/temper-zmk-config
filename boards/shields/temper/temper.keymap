@@ -13,8 +13,8 @@
 #define NUM 1
 #define SYMB 2
 #define NAV 3
-#define FUN 4
-#define CMD 5
+// #define FUN 4
+// #define CMD 5
 
 # define ______ &trans
 
