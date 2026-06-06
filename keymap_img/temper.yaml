@@ -28,7 +28,7 @@ layers:
     - SPACE
     - {t: BSPC, h: num}
     - {t: DEL, h: fun}
-  game:
+  symbol:
   - - ↹
     - Q
     - W
@@ -131,7 +131,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   fun:
-  - - {t: game, h: toggle}
+  - - {t: symbol, h: toggle}
     - MUTE
     - VOL DN
     - VOL UP
