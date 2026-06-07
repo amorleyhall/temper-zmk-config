@@ -44,7 +44,7 @@ layers:
     - '#'
     - $
     - '%'
-    - CARAT
+    - ^
     - '&'
     - '*'
     - {t: '-', s: _}
@@ -55,10 +55,10 @@ layers:
     - /
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - \
+    - ⌃
+    - _
+    - '|'
   - [ESC, ↹, SPACE, RET, BSPC, DEL]
   num:
   - - '~'
