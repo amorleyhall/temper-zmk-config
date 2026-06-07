@@ -44,11 +44,11 @@ layers:
     - '#'
     - $
     - '%'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - CARAT
+    - '&'
+    - '*'
+    - {t: '-', s: _}
+    - {t: '''', s: '"'}
   - - {t: '`', s: '~'}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
