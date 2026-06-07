@@ -34,32 +34,37 @@ layers:
     - {t: '[', s: '{'}
     - (
     - '{'
-    - '}'
-    - )
-    - {t: ']', s: '}'}
-    - '>'
-    - '"'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   - - '!'
     - '@'
     - '#'
     - $
     - '%'
-    - CARAT
-    - '&'
-    - '*'
-    - {t: '-', s: _}
-    - ''''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   - - {t: '`', s: '~'}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - /
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - \
-    - ⌃
-    - _
-    - '|'
-  - [ESC, ↹, SPACE, RET, BSPC, DEL]
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - ESC
+    - ↹
+    - SPACE
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   num:
   - - '~'
     - '@'
