@@ -49,7 +49,7 @@ layers:
     - {t: ▽, type: trans}
     - /
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '?'
     - \
     - ⌃
     - _
@@ -103,30 +103,30 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - DEL
+    - {t: ▽, type: trans}
+    - '&msc SCRL_UP'
+    - PAGE UP
     - HOME
-    - END
-    - ↹
-    - BSPC
-  - - {t: ⇧, h: sticky}
-    - {t: ⌃, h: sticky}
-    - {t: ⎇, h: sticky}
+    - {t: ▽, type: trans}
+  - - {t: ⎇, h: sticky}
     - {t: ⌘, h: sticky}
+    - {t: ⌃, h: sticky}
+    - {t: ⇧, h: sticky}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - ←
-    - ↓
     - ↑
+    - ↓
     - →
-    - {t: ESC, s: '`'}
-  - - {t: ▽, type: trans}
+  - - ⎇
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - RET
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '&msc SCRL_DOWN'
+    - PAGE DOWN
+    - END
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {type: held}
