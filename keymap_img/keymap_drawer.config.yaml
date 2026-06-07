@@ -116,7 +116,7 @@ parse_config:
     EXLM: '!'
     GRAVE: '`'
     GRV: '`'
-    GT: '>'
+    GREATER_THAN: '>'
     HASH: '#'
     LABK: <
     LBRC: '['
