@@ -29,42 +29,37 @@ layers:
     - {t: BSPC, h: num}
     - {t: DEL, h: fun}
   symbol:
-  - - ↹
-    - Q
-    - W
-    - E
-    - R
+  - - '~'
+    - <
+    - {t: '[', s: '{'}
+    - (
+    - '{'
+    - '}'
+    - )
+    - {t: ']', s: '}'}
+    - '>'
+    - '"'
+  - - '!'
+    - '@'
+    - '#'
+    - $
+    - '%'
+    - CARAT
+    - '&'
+    - '*'
+    - {t: '-', s: _}
+    - ''''
+  - - {t: '`', s: '~'}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - /
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ⇧
-    - A
-    - S
-    - D
-    - F
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ⌃
-    - Z
-    - X
-    - C
-    - V
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ESC
-    - {t: ▽, type: trans}
-    - SPACE
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - \
+    - ⌃
+    - _
+    - '|'
+  - [ESC, ↹, SPACE, RET, BSPC, DEL]
   num:
   - - '~'
     - '@'
@@ -210,4 +205,4 @@ combos:
 - p: [6, 7]
   k: BSPC
 - p: [7, 8]
-  k: BSPC
+  k: DEL
