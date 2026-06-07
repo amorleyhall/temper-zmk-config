@@ -46,9 +46,9 @@ layers:
     - '%'
     - CARAT
     - '&'
-    - '*'
-    - {t: '-', s: _}
-    - ''''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   - - {t: '`', s: '~'}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
