@@ -145,7 +145,7 @@ layers:
     - VOL DN
     - MUTE
     - {t: ▽, type: trans}
-  - - LCTRL(PSCRN)
+  - - LCTRL(PRINTSCREEN)
     - F4
     - F5
     - F6
