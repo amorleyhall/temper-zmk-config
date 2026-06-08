@@ -145,7 +145,7 @@ layers:
     - VOL DN
     - MUTE
     - {t: ▽, type: trans}
-  - - LCTRL(PRINTSCREEN)
+  - - {t: ▽, type: trans}
     - F4
     - F5
     - F6
