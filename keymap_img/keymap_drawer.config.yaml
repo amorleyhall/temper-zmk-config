@@ -226,9 +226,9 @@ parse_config:
     HASH: '#'
     LBKT: {t: '[', s: '{'}
     LBRC: '{'
-    LEFT_BRACE: '{'
-    LEFT_BRACKET: '['
-    LEFT_PARENTHESIS: (
+    LBRC: '{'
+    LBKT: '['
+    LPAR: (
     LESS_THAN: <
     LPAR: (
     LT: <
@@ -248,9 +248,8 @@ parse_config:
     QUESTION: '?'
     RBKT: {t: ']', s: '}'}
     RBRC: '}'
-    RIGHT_BRACE: '}'
-    RIGHT_BRACKET: ']'
-    RIGHT_PARENTHESIS: )
+    RBRC: '}'
+    RBKT: ']'
     RPAR: )
     SEMI: {t: ';', s: ':'}
     SEMICOLON:  {t: ';', s: ':'}
