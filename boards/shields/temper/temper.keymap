@@ -48,6 +48,11 @@
             key-positions = <27 28>;
             bindings = <&kp RET>;
         };
+        combo_caps {
+            timeout-ms = <50>;
+            key-positions = <11 12>;
+            bindings = <&caps_word>;
+        };
     };
 
 //     conditional_layers {
@@ -104,11 +109,11 @@
                 default_layer {
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp B         &kp L         &kp D         &kp C         &kp V             &kp J         &kp F         &kp O         &kp U        &kp COMMA   // #TODO comma morph to add ?
+        &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O        &kp P   // #TODO comma morph to add ?
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &kp N         &kp R         &kp T      &mt LSHFT S      &kp G             &kp Y      &mt RSHFT H      &kp A         &kp E        &kp I
+        &kp A         &kp S         &kp D      &mt LSHFT F      &kp G             &kp H      &mt RSHFT J      &kp K         &kp L        &kp SEMI
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &kp X         &kp Q         &kp M         &kp W         &kp Z             &kp K         &kp P         &kp APOS      &kp SEMI     &kp DOT
+        &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA      &kp DOT     &kp BSLH
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                    &mo SYM       &mo NAV     &kp SPACE        &kp SPACE         &mo NUM       &mo FUN
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
