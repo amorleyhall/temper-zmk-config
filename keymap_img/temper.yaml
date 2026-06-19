@@ -1,36 +1,27 @@
 layout: {zmk_keyboard: temper}
 layers:
   default:
-  - - B
-    - L
+  - [Q, W, E, R, T, Y, U, I, O, P]
+  - - A
+    - S
     - D
+    - {t: F, h: ⇧}
+    - G
+    - H
+    - {t: J, h: ⇧}
+    - K
+    - L
+    - {t: ;, s: ':'}
+  - - Z
+    - X
     - C
     - V
-    - J
-    - F
-    - O
-    - U
-    - {t: ',', s: <}
-  - - N
-    - R
-    - T
-    - {t: S, h: ⇧}
-    - G
-    - Y
-    - {t: H, h: ⇧}
-    - A
-    - E
-    - I
-  - - X
-    - Q
+    - B
+    - N
     - M
-    - W
-    - Z
-    - K
-    - P
-    - {t: '''', s: '"'}
-    - {t: ;, s: ':'}
+    - {t: ',', s: <}
     - {t: ., s: '>'}
+    - \
   - [symbol, nav, SPACE, SPACE, num, fun]
   symbol:
   - ['~', <, '[', (, '{', '}', ), ']', '>', '"']
@@ -219,3 +210,5 @@ combos:
   k: ↹
 - p: [27, 28]
   k: RET
+- p: [11, 12]
+  k: ⇪
