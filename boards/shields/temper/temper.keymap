@@ -11,11 +11,12 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define GALLIUM 0
-#define SYM 1
-#define NUM 2
-#define NAV 3
-#define FUN 4
-#define CMD 5
+#define QWERTY 1
+#define SYM 2
+#define NUM 3
+#define NAV 4
+#define FUN 5
+#define CMD 6
 
 # define ______ &trans
 
