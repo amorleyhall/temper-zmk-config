@@ -31,12 +31,12 @@ layers:
     - {t: '''', s: '"'}
     - {t: ;, s: ':'}
     - {t: ., s: '>'}
-  - - qwerty
-    - num
+  - - symbol
+    - nav
     - SPACE
     - {t: RSHIFT, h: sticky}
-    - symbol
-    - nav
+    - num
+    - fun
   qwerty:
   - [Q, W, E, R, T, Y, U, I, O, P]
   - - A
@@ -59,12 +59,7 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - \
-  - - {t: qwerty, type: held}
-    - num
-    - SPACE
-    - SPACE
-    - symbol
-    - nav
+  - [symbol, nav, SPACE, SPACE, num, fun]
   symbol:
   - ['~', <, '[', (, '{', '}', ), ']', '>', '"']
   - - '!'
@@ -87,11 +82,11 @@ layers:
     - ⌃
     - _
     - '|'
-  - - ESC
+  - - {t: ESC, type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   num:
   - - /
@@ -125,10 +120,10 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {t: '0', type: held}
+    - '0'
     - SPACE
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
   nav:
   - - {t: ▽, type: trans}
@@ -162,11 +157,11 @@ layers:
     - END
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   fun:
   - - {t: ▽, type: trans}
     - F7
@@ -203,7 +198,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: held}
   cmd:
   - - ⌘Q
     - ⌘W
