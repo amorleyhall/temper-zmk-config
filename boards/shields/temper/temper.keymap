@@ -57,7 +57,7 @@
         combo_num {
             timeout-ms = <50>;
             key-positions = <1 2 3>;
-            bindings = <&tg 3>;
+            bindings = <&tog 3>;
         };
         //combo_qwer {
         //    timeout-ms = <50>;
