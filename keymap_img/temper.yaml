@@ -42,10 +42,10 @@ layers:
   - - A
     - S
     - D
-    - {t: F, h: ⇧}
+    - F
     - G
     - H
-    - {t: J, h: ⇧}
+    - J
     - K
     - L
     - {t: ;, s: ':'}
@@ -59,7 +59,12 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - \
-  - [symbol, nav, SPACE, SPACE, num, fun]
+  - - symbol
+    - nav
+    - SPACE
+    - {t: RSHIFT, h: sticky}
+    - num
+    - fun
   symbol:
   - ['~', <, '[', (, '{', '}', ), ']', '>', '"']
   - - '!'
