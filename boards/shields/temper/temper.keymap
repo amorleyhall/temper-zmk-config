@@ -20,7 +20,7 @@
 
 # define ______ &trans
 
-/ {
+{
     
     combos {
         compatible = "zmk,combos";
