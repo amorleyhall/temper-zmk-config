@@ -59,7 +59,7 @@
            // key-positions = <1 2 3>;
            // bindings = <&tog NUM>;
         };
-        combo_caps {
+        combo_qwer {
             timeout-ms = <50>;
             key-positions = <6 7 8>;
             bindings = <&tog 1>;
