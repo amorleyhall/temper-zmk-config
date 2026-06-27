@@ -250,4 +250,4 @@ combos:
 - p: [11, 12]
   k: ⇪
 - p: [1, 2, 3]
-  k: '&tg 3'
+  k: {t: num, h: toggle}
