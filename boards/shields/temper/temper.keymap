@@ -64,9 +64,33 @@
             key-positions = <6 7 8>;
             bindings = <&tog QWERTY>;
         };
+        combo_wm1 {
+            timeout-ms = <50>;
+            key-positions = <3 4>;
+            bindings = <&kp LALT(LGUI(LSHIFT))>;
+        };
+
+        combo_wm2 {
+            timeout-ms = <50>;
+            key-positions = <5 6>;
+            bindings = <&kp LALT(LGUI(LSHIFT))>;
+        };
+
+        combo_wm3 {
+            timeout-ms = <50>;
+            key-positions = <23 24>;
+            bindings = <&kp LALT(LGUI(LSHIFT(LCTRL)))>;
+        };
+        combo_wm4 {
+            timeout-ms = <50>;
+            key-positions = <25 26>;
+            bindings = <&kp LALT(LGUI(LSHIFT(LCTRL)))>;
+        };
+
 
     };
 
+// &sk LALT     &sk LGUI      &sk LCTRL      &sk LSHFT 
 //     conditional_layers {
 //         compatible = "zmk,conditional-layers";
 //         tri_layer {
