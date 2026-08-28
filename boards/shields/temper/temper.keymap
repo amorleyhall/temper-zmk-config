@@ -76,16 +76,16 @@
              bindings = <&kp LS(LC(LA(LGUI)))>;
         };
 
-     //    combo_wm3 {
-       //      timeout-ms = <50>;
-     //        key-positions = <23 24>;
-   //          bindings = <&kp LS(LA(LGUI)))>;
-       //  };
-     //    combo_wm4 {
-      //       timeout-ms = <50>;
-    //         key-positions = <25 26>;
-  //           bindings = <&kp LS(LA(LGUI)))>;
-//         };
+         combo_wm_c {
+             timeout-ms = <50>;
+             key-positions = <23 24>;
+             bindings = <&kp LS(LA(LGUI)))>;
+         };
+         combo_wm4 {
+             timeout-ms = <50>;
+             key-positions = <25 26>;
+             bindings = <&kp LS(LA(LGUI)))>;
+         };
 
 
     };
