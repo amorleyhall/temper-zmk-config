@@ -79,12 +79,12 @@
          combo_wm_c {
              timeout-ms = <50>;
              key-positions = <23 24>;
-             bindings = <&kp LS(LA(LGUI)))>;
+             bindings = <&kp LS(LA(LGUI))>;
          };
          combo_wm_d {
              timeout-ms = <50>;
              key-positions = <25 26>;
-             bindings = <&kp LS(LA(LGUI)))>;
+             bindings = <&kp LS(LA(LGUI))>;
          };
 
 
