@@ -64,28 +64,28 @@
             key-positions = <6 7 8>;
             bindings = <&tog QWERTY>;
         };
-        combo_wm {
+        combo_wm1 {
             timeout-ms = <50>;
             key-positions = <3 4>;
             bindings = <&kp LS(LC(LA(LGUI)))>;
         };
 
-        // combo_wm2 {
-        //     timeout-ms = <50>;
-        //     key-positions = <5 6>;
-        //     bindings = <&kp LALT(LGUI(LSHIFT(KC_NO)))>;
-        // };
+         combo_wm2 {
+             timeout-ms = <50>;
+             key-positions = <5 6>;
+             bindings = <&kp LS(LC(LA(LGUI)))>;
+         };
 
-        // combo_wm3 {
-        //     timeout-ms = <50>;
-        //     key-positions = <23 24>;
-        //     bindings = <&kp LALT(LGUI(LSHIFT(LCTRL(KC_NO))))>;
-        // };
-        // combo_wm4 {
-        //     timeout-ms = <50>;
-        //     key-positions = <25 26>;
-        //     bindings = <&kp LALT(LGUI(LSHIFT(LCTRL(KC_NO))))>;
-        // };
+         combo_wm3 {
+             timeout-ms = <50>;
+             key-positions = <23 24>;
+             bindings = <&kp LS(LA(LGUI)))>;
+         };
+         combo_wm4 {
+             timeout-ms = <50>;
+             key-positions = <25 26>;
+             bindings = <&kp LS(LA(LGUI)))>;
+         };
 
 
     };
