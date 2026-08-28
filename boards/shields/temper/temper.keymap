@@ -67,7 +67,7 @@
         combo_wm {
             timeout-ms = <50>;
             key-positions = <3 4>;
-            bindings = <&kp LGUI(LSHIFT(KC_NO))>;
+            bindings = <&kp LGUI(LSHIFT)>;
         };
 
         // combo_wm2 {
